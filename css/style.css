@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    max-width: 800px;
+    margin: 4px auto;
+}
+
+.application{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.2);
+}
+
+.application h1{
+    display: flex;
+    justify-content: center;
+}
+
+.application div{
+    display: grid;
+    margin: 8px 8px;
+}
+
+.application label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+}
+
+button{
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border:2px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+button:hover{
+    background-color: rgb(243, 129, 148);
+}
